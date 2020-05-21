@@ -1,0 +1,96 @@
+#tabela table {
+border-collapse: collapse;
+width: 80%;
+margin-left: 10%;
+
+}
+
+#tabela th, td {
+text-align: left;
+padding: 8px;
+}
+
+#tabela tr:nth-child(even){background-color: #f2f2f2}
+
+#tabela th {
+background-color: #4CAF50;
+color: white;
+
+}
+#perfil {
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 7%;
+  margin-top: 3%;
+
+}
+#bemvindo {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+#controleacesso  {
+    margin: auto;
+    width: 20%;
+    margin-bottom: 2%;
+}
+#controleacesso select {
+      width: 70%;
+      padding: 5.5px;
+
+}
+#controleacesso #buscar {
+  padding: 5.5px;
+  width: 15%;
+}
+.estacionamentos {
+  margin-top: 5%
+}
+.estacionamentos h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.estacionamentos input {
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+  width: 30%;
+}
+.logincadastro {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  margin-bottom: 7%;
+  margin-top: 3%;
+}
+.logincadastro h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+.logincadastro form {
+  margin-top: 1%;
+}
+.logincadastro input {
+  margin-top: 0.5%;
+  width: 40%;
+
+
+}
+.logincadastro button {
+  margin-top: 1%;
+}
+.logincadastro button a{
+  color: white;
+  text-decoration: none;
+}
+#sair {
+    margin: auto;
+    display: block;
+    margin-top: 3em;
+    width: 30%;
+    max-width: 500px;
+    background-color: #ce2828d4;
+}
